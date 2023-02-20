@@ -1,0 +1,33 @@
+/* 
+set all roman code in javascript dictionary and used for loop to check the code 
+while the number greater than or equal to the opposite of it in roman and add the code into the answer 
+and subtract the value from the roman opposite value and get the answer when while ends.
+*/
+
+function convertToRoman(num) {
+ let romanNums = {
+   M:1000,
+   CM:900,
+   D:500,
+   CD:400,
+   C:100,
+   XC:90,
+   L:50,
+   XL:40,
+   X:10,
+   IX:9,
+   V:5,
+   IV:4,
+   I:1
+   }
+   let ans = ""
+   for(let cod in romanNums){
+     while(num >= romanNums[cod]){
+       ans += cod;
+       num -= romanNums[cod];
+     }
+   }
+ return ans;
+}
+
+convertToRoman(3600);
