@@ -1,6 +1,6 @@
 # JavaScript-FreeCodeCamp-Projects
 
-Solving the following Javascript projects for course on FreeCodeCamp
+Solving the following Javascript projects for JavaScript Algorithms and Data Structures course on FreeCodeCamp
 
 1. Palindrome Checker
 2. Roman Numeral Converter
