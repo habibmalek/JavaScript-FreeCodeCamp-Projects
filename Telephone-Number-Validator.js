@@ -1,5 +1,5 @@
 /*
-First we need to write a regex that pass test the given US numbers valid formats:
+First, we need to write a regex that passes the test of the given US number's valid formats:
 555-555-5555    
 (555)555-5555
 (555) 555-5555
